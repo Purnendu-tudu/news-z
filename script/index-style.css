@@ -106,7 +106,7 @@ td {
 }
 
 .newsbodygrid{
-    font-size: 19px;
+    font-size: 17px;
     text-align: start;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
