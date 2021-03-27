@@ -1,0 +1,66 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/background2.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.tab ul
+{
+    float: Right;
+    margin-top: 25px;
+    margin-right: 100px;
+}
+.tab ul li
+{
+    display: inline-block;
+}
+.tab ul li a
+{
+    text-decoration: none;
+    color: rgb(131, 245, 18);
+    padding: 5px 20px;
+    border: 1px solid;
+    border-radius: 30px;
+    transition: 0.6s ease;
+
+}
+.tab ul li a:hover{
+    background-color: aliceblue;
+    color: black;
+}
+.intro
+{
+    float: left;
+    color: rgb(83, 237, 69);
+    margin-left: 100px;
+}
+.catagory ul
+{
+float: left;
+margin-left: 0;
+margin-top: 65px;
+}
+.catagory ul li
+{
+    display: inline-block;
+}
+.catagory ul li a
+{
+    text-decoration: none;
+    color: rgb(251, 255, 0);
+    padding: 5px 35px;
+    border: 1px solid;
+    border-radius: 30px;
+    transition: 0.6s ease;
+}
+.catagory ul li a:hover{
+    background-color: aliceblue;
+    color: black;
+}
+.catagory
+{
+    float: left;
+}
