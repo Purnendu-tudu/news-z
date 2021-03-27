@@ -12,7 +12,7 @@ The file structure for this :
 Our initial target is to make this simple basic template design.
 Then start adding the features into our web-page.
 
-
+The Website Link : [https://purnendu-tudu.github.io/news-z/]
 
 
 Happy Coding. 
