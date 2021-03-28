@@ -1,0 +1,33 @@
+
+   body {
+
+       background-color: floralwhite;
+}
+h1 {text-align: center;
+    font-family: "Engravers MT";
+color: floralwhite;
+background-color:#072f5f;
+border: 5px solid white;}
+h2{ text-align: center;
+    color:#072f5f;
+    
+}
+h3{text-align: left;
+    background-color: #00394d; 
+    color: azure;
+}
+
+    a:link {
+color:#008081;
+text-decoration: none;}
+a:visited {
+color: black;}
+a:hover {
+color: deeppink;
+text-decoration: underline;}
+a:active {
+color: darkcyan;}
+form { font-family:"Engravers MT";color: #072f5f; 
+    text-align: center;
+}
+
