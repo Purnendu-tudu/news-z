@@ -102,13 +102,13 @@ td {
 .slideshow
     {   
         background-image: url("../img/download.jpg");
-        height: 5rem;
+        height: 10rem;
         animation : slide 9s infinite linear;
     }
 @keyframes slide{
-    0%{background-image: url("../img/download.jpg")}
-    35%{background-image: url("../img/images%202.jpg")}
-    75%{background-image: url("../img/images.jpg")}
+    0%{background-image: url("../img/img_1.jpg")}
+    35%{background-image: url("../img/img_2.jpg")}
+    75%{background-image: url("../img/img_3.jpg")}
 }
 
 .sportsnewsbody{
