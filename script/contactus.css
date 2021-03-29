@@ -1,0 +1,67 @@
+* {
+
+  box-sizing: border-box;
+}
+body
+{
+    margin: 0 ;
+    padding: 0;
+    background-image: url(../img/img5_edited.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+  
+}
+.top{
+    text-align: center;
+    color: rgb(146,249,255);
+    font-family: "Broadway";
+    
+}
+.container{
+    background-color: rgba(79, 1, 80, 0.4);
+    height: 400px;
+    width: 400px;
+    padding: 20px;
+    text-align: center;
+    color: aliceblue;
+    font-family: "Californian FB";
+    position: absolute;
+    font-size: 30px;
+    left: 20%;
+    top: 30%
+        
+    
+    
+}
+img{
+    width: 20px;
+    height: 20px;
+}
+a{
+    color: aliceblue;
+    text-decoration: none
+}
+a:hover{
+    color: antiquewhite;
+    text-decoration: underline;
+}
+form{
+    position:absolute;
+    top:30%;
+    text-align: center;
+    font-size: 30px;
+   left:50%;
+    height:400px;
+    padding: 30px;
+    width:400px;
+    background-color: white;
+    font-family: "Candara Light";
+    color: rgb(79, 1, 80);
+    box-shadow: inset 0 0 10px #777777;
+}
+.head
+{
+    text-align: center;
+}
