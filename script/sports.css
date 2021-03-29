@@ -101,7 +101,7 @@ td {
 
 .slideshow
     {   
-        background-image: url("../img/download.jpg");
+        background-image: url("../img/img_1.jpg");
         height: 10rem;
         animation : slide 9s infinite linear;
     }
