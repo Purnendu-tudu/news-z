@@ -71,6 +71,7 @@ body{
     padding: 1rem;
     border: 2px solid white;
     color: black;
+    font-size: 125%;
 }
 .row div:nth-child(odd) {
     background: rgba(79, 1, 80, 0.5);
