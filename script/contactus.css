@@ -6,13 +6,11 @@ body
 {
     margin: 0 ;
     padding: 0;
-   
     background-image: url(../img/FINAL.jpeg);
     height: 100vh;
     background-size: cover;
     background-position: center;
     font-family: sans-serif;
-  
 }
 
 }
@@ -20,6 +18,7 @@ h1{
     font-size: 40px;
 }
 h1{
+     transition: 0.6s ease;
     text-align: center;
     color: rgb(146,249,255);
     font-family: "Broadway";
@@ -30,8 +29,6 @@ h2{
     color: floralwhite;
     font-family: "Candara Light";
     font-size: 20px;
-   
-   
 }
 .container{
     background-color: rgba(79, 1, 80, 0.4);
@@ -45,12 +42,9 @@ h2{
     font-size: 30px;
     left: 25%;
     top: 30%
-        
-        
-    
-    
 }
 img{
+    
     width: 20px;
     height: 20px;
 }
@@ -63,6 +57,7 @@ a:hover{
     text-decoration: underline;
 }
 form{
+    
     position:absolute;
     top:30%;
     text-align: center;
