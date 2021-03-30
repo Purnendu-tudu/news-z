@@ -6,7 +6,7 @@ body
 {
     margin: 0 ;
     padding: 0;
-    background-image: url(../img/background2.jpg);
+    background-image: url(/img/background2.jpg);
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -52,7 +52,7 @@ body
     color:whitesmoke;
 }
 .intro
-{background-image:url("https://cdn.wallpapersafari.com/90/24/sUnEtI.jpg");
+{--background-image:url("https://cdn.wallpapersafari.com/90/24/sUnEtI.jpg");
      background-repeat: no-repeat;
     font-family: "Broadway";
     grid-column: 1 / 2;    

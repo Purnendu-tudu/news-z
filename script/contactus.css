@@ -73,6 +73,10 @@ form{
 -webkit-box-shadow: 5px 5px 7px black;
 box-shadow: 5px 5px 7px black;}
 }
+textarea{
+    resize: none;
+}
+
 .head
 {
     text-align: center;
@@ -87,8 +91,16 @@ box-shadow: 5px 5px 7px black;}
     font-family:"Candara Light"; 
     color: aliceblue;
 }
+
 textarea{
     font-family: "Bell MT";
     color: darkgrey;
     font-size:16px;
     }
+
+
+.button:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
