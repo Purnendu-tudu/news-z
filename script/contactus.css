@@ -6,18 +6,32 @@ body
 {
     margin: 0 ;
     padding: 0;
-    background-image: url(../img/img5_edited.jpg);
+   
+    background-image: url(../img/FINAL.jpeg);
     height: 100vh;
     background-size: cover;
     background-position: center;
     font-family: sans-serif;
   
 }
-.top{
+
+}
+h1{
+    font-size: 40px;
+}
+h1{
     text-align: center;
     color: rgb(146,249,255);
     font-family: "Broadway";
-    
+    font-size: 40px;
+}
+h2{
+    text-align: center;
+    color: floralwhite;
+    font-family: "Candara Light";
+    font-size: 20px;
+   
+   
 }
 .container{
     background-color: rgba(79, 1, 80, 0.4);
@@ -29,8 +43,9 @@ body
     font-family: "Californian FB";
     position: absolute;
     font-size: 30px;
-    left: 20%;
+    left: 25%;
     top: 30%
+        
         
     
     
@@ -51,15 +66,17 @@ form{
     position:absolute;
     top:30%;
     text-align: center;
-    font-size: 30px;
-   left:50%;
+    font-size: 25px;
+   left:52%;
     height:400px;
     padding: 30px;
     width:400px;
     background-color: white;
     font-family: "Candara Light";
     color: rgb(79, 1, 80);
-    box-shadow: inset 0 0 10px #777777;
+   -moz-box-shadow: 5px 5px 7px black;
+-webkit-box-shadow: 5px 5px 7px black;
+box-shadow: 5px 5px 7px black;}
 }
 .head
 {
@@ -75,3 +92,8 @@ form{
     font-family:"Candara Light"; 
     color: aliceblue;
 }
+textarea{
+    font-family: "Bell MT";
+    color: darkgrey;
+    font-size:16px;
+    }
