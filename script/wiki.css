@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+}
+body{
+    --background: url('/img/wiki_bg.png');
+    color: darkmagenta;    
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: cursive;
+}
+
+.container{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+fieldset{
+    border: 2px solid black;
+}
+
+.navitem > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+    overflow: hidden;    
+}
+
+.navitem > ul > li {
+    float: left;
+    padding: 3px;
+    
+   
+}
+
+.navitem > ul > li > a{
+    font-size: 1rem;
+    display: block;
+    text-decoration: none;
+    padding-right: 1.5rem;
+    transition: 0.6s ease;
+    text-align: center;
+    
+}
+.content > div{
+    padding: 10px;
+    background-color: rgb(134, 146, 176, 0.5);
+}
+
+.navitem > ul > li > a:hover{
+    background-color: darkgray;
+}
