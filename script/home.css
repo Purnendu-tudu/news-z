@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+}
+body{
+
+  font-family:"Broadway";
+  background-color: floralwhite;
+}
+.header {
+    color: #046271;
+    background-color: #d5c4b8;
+    border: 5px solid white;
+    padding: 1rem;
+    text-align: center;
+}
+.headernav{
+    font-family:"Californian FB";
+    font-size:26px;
+    background-color: #73cada;
+    color: #6a6352;
+    padding: 1rem;
+    text-align: center;
+    border: 5px solid white;
+    
+} 
+
+.navigation{
+    overflow: hidden;
+    font-size: 2rem;
+    position: relative;
+    text-align: center;
+    border: 5px solid white;
+    background-color: #333;
+    padding: 4px;
+}
+
+.navigation a{
+    text-decoration: none;
+    padding: 14px 16px;
+    color: whitesmoke;
+    background-color: #73cada;
+    transition: 0.3s;
+}
+
+.navigation a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.displaybox{
+     font-family: "Candara Light";
+    color: aliceblue;
+    grid-column: 1 / 3; 
+    padding-left: 2rem;
+    padding-right: 2rem;
+   
+}
+
+.row{
+   
+    font-size: 17px;
+    text-align: start;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+    
+}
+
+.row > div {
+    background: rgba(79, 1, 80, 0.2);
+    padding: 1rem;
+    border: 2px solid white;
+    color: black;
+    font-size: 125%;
+}
+.row div:nth-child(odd) {
+    background: rgba(79, 1, 80, 0.5);
+    color: aliceblue;
+}

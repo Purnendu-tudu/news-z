@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+}
+body{
+    background: url('../img/wiki_bg.png');
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+.container{
+    margin-left: 20%;
+    margin-right: 20%;
+   
+    
+}
+fieldset{
+    background: rgba(0,0,0,0.4);
+  font-family: "Old English Text MT";
+    color:antiquewhite;
+    border: 2px solid black;
+    
+}
+
+.navitem > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+    overflow: hidden; 
+    
+}
+
+.navitem > ul > li {
+    float: left;
+    padding: 3px;
+    
+   
+}
+
+.navitem > ul > li > a{
+    font-size: 1rem;
+    display: block;
+    color: antiquewhite;
+    text-decoration: none;
+    padding-right: 1.5rem;
+    transition: 0.6s ease;
+    text-align: center;
+    font-family: "Adobe Garamond Pro Bold";
+    
+}
+.content > div{
+    padding: 10px;
+    background-color: #731a17;
+   
+    color: #c7c3be; 
+    font-family: "Adobe Garamond Pro Bold";
+}
+
+.navitem > ul > li > a:hover{
+    background-color: darkgray;
+    color:firebrick;
+}
+.a{
+       color: #60412b;
+        font-family: "Baskerville Old Face";
+    font-size:30px;
+    padding: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+    background: #f4eee1;
+        position: absolute;
+        top:42%;
+        left:13%;
+    border-radius: 10px;
+    }
+
+.topnav .search-container {
+  float: right;
+    
+        
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 40px;
+    font-family: "Baskerville Old Face";
+    color:#60412b;
+  border: none;
+    position:absolute;
+      border-radius: 10px;
+    left: 30%;
+    top:50%;
+    background:#f4eee1;
+}
+
+.topnav .search-container button {
+  float: right;
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #c4bdac;
+      border-radius: 10px;
+    font-family: "Baskerville Old Face";
+      color: #60412b;
+  font-size: 40px;
+  border: none;
+ 
+     position: absolute;
+    left: 55%;
+    top:50%;
+}
+
+.topnav .search-container button:hover {
+  background: #ccc;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav .search-container {
+    float: none;
+  }
+  .topnav a, .topnav input[type=text], .topnav .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc;  
+  }
+    
